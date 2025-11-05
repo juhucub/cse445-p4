@@ -31,8 +31,8 @@ attributeFormDefault="unqualified">
 			<xsd:element name="City" type="xsd:string"/>
 			<xsd:element name="State" type="xsd:string"/>
 			<xsd:element name="Zip" type="xsd:int"/>
+			<xsd:element name="NearestAirport" type="xsd:string"/>
 		</xsd:sequence>
-		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 	</xsd:complexType>
 
 </xsd:schema>
