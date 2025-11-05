@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1.csproj", "{C3A97C76-FB2F-4744-B0E5-276882ECD361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hotels", "Hotels", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Hotels.xml = Hotels.xml
+		Hotels.xsd = Hotels.xsd
+		HotelsErrors.xml = HotelsErrors.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A97C76-FB2F-4744-B0E5-276882ECD361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A97C76-FB2F-4744-B0E5-276882ECD361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A97C76-FB2F-4744-B0E5-276882ECD361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A97C76-FB2F-4744-B0E5-276882ECD361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC42973-E534-433A-91F9-382D96431ADA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotel
+  xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml https://juhucub.github.io/cse445-p4/Hotels.xsd">
+	>
+
+	<Hotel Id="H1" Rating="4.7">
+		<Name>The Ritz-Carlton, Dove Mountain</Name>
+		<Name>The Canyon Suites At The Phoenician, A Luxury Collection Resort, Scottsdale</Name>
+		<Phone>520-572-3000</Phone>
+		<Address>
+			<Number>1500</Number>
+			<Street>N Secret Springs Dr</Street>
+			<City>Marana</City>
+			<State>AZ</State>
+			<Zip>85658</Zip>
+			<NearestAirport>Tuscon Airport</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H2" Rating="4.6">
+		<Name>The Phoenician, A Luxury Collection Resort, Scottsdale</Name>
+		<Phone>480-941-8200</Phone>
+		<Address>
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H3">
+		<Name>JW Mariott Scottsdale Camelback Inn Resort &amp; Spa</Name>
+		<Phone>480-948-1700</Phone>
+		<Phone>888-888-8888</Phone>
+		<Address>
+			<Number>5402</Number>
+			<Street>E Lincoln Dr</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85253</Zip>
+			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H4" Rating="4.3">
+		<Name>Renaissance Phoenix Downtown Hotel</Name>
+		<Address>
+			<Number>100</Number>
+			<Street>N 1st St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H5">
+		<Name>Sheraton Grand At Wild Horse Pass</Name>
+		<Phone>602-225-0100</Phone>
+		<Phone>111-111-1111</Phone>
+		<Address>
+			<Number>5594</Number>
+			<Street>W Wild Horse Pass Blvd</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85226</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H6" Rating="4.7">
+		<Name>Cable Mountain Lodge</Name>
+		<Phone>435-772-3366</Phone>
+		<Address>
+			<Number>147</Number>
+			<Street>Zion Park Boulevard</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+			<NearestAirport>St. George Regional Airport</NearestAirport>
+		</Hotel>
+
+	<Hotel Id="H7">
+		<Name>The Canyon Suites At The Phoenician, A Luxury Collection Resort, Scottsdale</Name>
+		<Phone>480-897-7444</Phone>
+		<Phone>480-941-8200</Phone>
+		<Address>
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H8" Rating="4.4">
+		<Name>JW Marriott Phoenix Desert Ridge Resort &amp; Spa</Name>
+		<Phone>480-293-5000</Phone>
+		<Phone>000-539-2084</Phone>
+		<Address>
+			<Number>5350</Number>
+			<Street>E Marriot Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85054</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H9">
+		<Name>Hampton Inn &amp; Suites Tempe/Phoenix Airport</Name>
+		<Phone>480-410-6400</Phone>
+		<Address>
+			<Number>1550</Number>
+			<Street>S 52nd St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Id="H10" Rating="4.4">
+		<Name>Tempe Mission Palms, a Destiation by Hyatt Hotel</Name>
+		<Phone>480-894-1400</Phone>
+		<Phone>800-547-8705</Phone>
+		<Address>
+			<Number>60</Number>
+			<Street>E 5th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+
+</Hotel>
