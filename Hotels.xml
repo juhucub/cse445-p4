@@ -3,7 +3,6 @@
   xmlns="http://venus.sod.asu.edu/WSRepository/xml"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml https://juhucub.github.io/cse445-p4/Hotels.xsd">
-	>
 
 	<Hotel Id="H_EX" Rating="4.2">
 		<Name>Westin</Name>
