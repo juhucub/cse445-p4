@@ -8,39 +8,36 @@
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>11</Number>
 			<Street>E 7th St</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel Id="H1" Rating="4.7">
 		<Name>The Ritz-Carlton, Dove Mountain</Name>
 		<Phone>520-572-3000</Phone>
-		<Address>
+		<Address NearestAirport="Tuscon Airport">
 			<Number>1500</Number>
 			<Street>N Secret Springs Dr</Street>
 			<City>Marana</City>
 			<State>AZ</State>
 			<Zip>85658</Zip>
-			<NearestAirport>Tuscon Airport</NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel Id="H2" Rating="4.6">
 		<Name>The Phoenician, A Luxury Collection Resort, Scottsdale</Name>
 		<Phone>480-941-8200</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>6000</Number>
 			<Street>E Camelback Rd</Street>
 			<City>Scottsdale</City>
 			<State>AZ</State>
 			<Zip>85251</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -48,26 +45,24 @@
 		<Name>JW Mariott Scottsdale Camelback Inn Resort &amp; Spa</Name>
 		<Phone>480-948-1700</Phone>
 		<Phone>888-888-8888</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>5402</Number>
 			<Street>E Lincoln Dr</Street>
 			<City>Scottsdale</City>
 			<State>AZ</State>
 			<Zip>85253</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel Id="H4" Rating="4.3">
 		<Name>Renaissance Phoenix Downtown Hotel</Name>
 		<Phone>602-333-0000</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>100</Number>
 			<Street>N 1st St</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85004</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -75,26 +70,24 @@
 		<Name>Sheraton Grand At Wild Horse Pass</Name>
 		<Phone>602-225-0100</Phone>
 		<Phone>111-111-1111</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>5594</Number>
 			<Street>W Wild Horse Pass Blvd</Street>
 			<City>Chandler</City>
 			<State>AZ</State>
 			<Zip>85226</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel Id="H6" Rating="4.7">
 		<Name>Cable Mountain Lodge</Name>
 		<Phone>435-772-3366</Phone>
-		<Address>
+		<Address NearestAirport ="St. George Regional Airport">
 			<Number>147</Number>
 			<Street>Zion Park Boulevard</Street>
 			<City>Springdale</City>
 			<State>UT</State>
 			<Zip>84767</Zip>
-			<NearestAirport>St. George Regional Airport</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -102,13 +95,12 @@
 		<Name>The Canyon Suites At The Phoenician, A Luxury Collection Resort, Scottsdale</Name>
 		<Phone>480-897-7444</Phone>
 		<Phone>480-941-8200</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>6000</Number>
 			<Street>E Camelback Rd</Street>
 			<City>Scottsdale</City>
 			<State>AZ</State>
 			<Zip>85251</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -116,26 +108,24 @@
 		<Name>JW Marriott Phoenix Desert Ridge Resort &amp; Spa</Name>
 		<Phone>480-293-5000</Phone>
 		<Phone>000-539-2084</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>5350</Number>
 			<Street>E Marriot Dr</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85054</Zip>
-			<NearestAirport>Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
 	<Hotel Id="H9">
 		<Name>Hampton Inn &amp; Suites Tempe/Phoenix Airport</Name>
 		<Phone>480-410-6400</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>1550</Number>
 			<Street>S 52nd St</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-			<NearestAirport>Phoenix Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
@@ -143,13 +133,12 @@
 		<Name>Tempe Mission Palms, a Destiation by Hyatt Hotel</Name>
 		<Phone>480-894-1400</Phone>
 		<Phone>800-547-8705</Phone>
-		<Address>
+		<Address NearestAirport ="Sky Harbor">
 			<Number>60</Number>
 			<Street>E 5th St</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-			<NearestAirport>Sky Harbor</NearestAirport>
 		</Address>
 	</Hotel>
 
