@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Remoting.Contexts;
+using System.Linq;
 using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Schema;
 
 
@@ -30,12 +31,12 @@ namespace ConsoleApp1
             Console.WriteLine(result);
 
 
-            //result = Verification(xmlErrorURL, xsdURL);
-            // Console.WriteLine(result);
+            result = Verification(xmlErrorURL, xsdURL);
+            Console.WriteLine(result);
 
 
-            //result = Xml2Json(xmlURL);
-            //Console.WriteLine(result);
+            result = Xml2Json(xmlURL);
+            Console.WriteLine(result);
         }
 
         // Q2.1 - return "No Error" if XML is valid. Otherwise, return the desired exception message.
@@ -83,7 +84,7 @@ namespace ConsoleApp1
             }
             if (errors.Count == 0)
             {
-                return "No Error";
+                return "No errors are found";
             }
             else
             {
@@ -93,10 +94,54 @@ namespace ConsoleApp1
 
         public static string Xml2Json(string xmlUrl)
         {
+            //Load XML from URL
+            var xmlDoc = XDocument.Load(xmlUrl);
+            XNamespace link = "http://venus.sod.asu.edu/WSRepository/xml";
 
+            //helper to read all phones for a hotel
+            List<string> GetPhones(XElement hotel) => hotel.Elements(link + "Phone")
+               .Select(p => (p.Value ?? "").Trim())
+               .Where(v => v.Length > 0)
+               .ToList();
 
-            // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
-            return "yeah";
+            //Build each hotel before converting to json
+            var hotels = xmlDoc.Root.Elements(link + "Hotel")
+                         .Select(hotel =>
+                         {
+                             var address = hotel.Element(link + "Address");
+
+                             return new
+                             {
+                                 Name = (string)hotel.Element(link + "Name"),
+                                 Phone = GetPhones(hotel),
+                                 Address = new
+                                 {
+                                     Number = (string)address.Element(link + "Number"),
+                                     Street = (string)address.Element(link + "Street"),
+                                     City = (string)address.Element(link + "City"),
+                                     State = (string)address.Element(link + "State"),
+                                     Zip = (string)address.Element(link + "Zip"),
+                                     NearestAirport = (string)address.Attribute("NearestAirport") ?? ""
+                                 },
+                                 _Rating = (string)hotel.Attribute("Rating")
+                             };
+                         }) . ToList();
+
+            //wrap in a Hotels root
+            var HotelsRoot = new
+            {
+                Hotels = new
+                {
+                    Hotel = hotels
+                }
+            };
+
+            //Serialize to JSON and ignore nulls
+            return JsonConvert.SerializeObject(HotelsRoot, Newtonsoft.Json.Formatting.Indented, new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore,
+            });
+
 
         }
     }
